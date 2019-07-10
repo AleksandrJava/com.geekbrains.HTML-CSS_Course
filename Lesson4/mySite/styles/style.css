@@ -1,0 +1,70 @@
+body {
+  background-color: #f8f8f8 ;
+}
+.menu > li > a {
+    color: rgba(255, 67, 0, 0.7);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.menu > li {
+    display: inline-block;
+}
+.product > h2 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.shortDescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.detailedDescription {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+/*.options > li {*/
+/*    list-style-image: url("../img/iconRight.png");*/
+/*}*/
+.contactForm input[type = "text"][placeholder = "Ваше имя"]{
+    margin-bottom: 10px;
+    width: 30%;
+}
+.contactForm input[type = "email"]{
+    width: 30%;
+}
+.contactForm input[type = "text"][placeholder="Тема"], textarea {
+    font-size: 20px;
+    width: 60%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.productImg {
+    border: 2px solid orangered;
+}
+.menu > li > a:hover{
+    color: #201f25;
+}
+
+#logo{
+    height: 100px;
+}
+
+.contactForm input[type="email"]:focus {
+    background: #3f201a;
+    color: orangered;
+}
+.contactForm input, textarea {
+    text-transform: capitalize;
+}
+.productImg:hover {
+    border-color: transparent;
+}
